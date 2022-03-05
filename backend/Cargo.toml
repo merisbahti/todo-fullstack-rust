@@ -8,3 +8,4 @@ diesel = { version = "1.4.4", features = ["postgres"] }
 warp = "*"
 tokio = { version = "1", features = ["full"] }
 dotenv = "0.15.0"
+serde = "*"
