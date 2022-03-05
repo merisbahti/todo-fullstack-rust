@@ -1,0 +1,12 @@
+[package]
+name = "mlog-frontend"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "frontend"
+path = "src/bin/frontend.rs"
+
+[dependencies]
+# you can check the latest version here: https://crates.io/crates/yew
+yew = "0.19"
